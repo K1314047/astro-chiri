@@ -19,4 +19,4 @@ git status
 1. 修改或新增文件
 2. 执行 `git add .`
 3. 执行 `git commit -m "你的提交信息"`
-4. 执行 `git push`
+4. 执行 `git push origin main`
