@@ -19,6 +19,7 @@ const finalWidth = shouldUseCustomWidth ? `${widthValue}rem` : '25rem'
 
 <html lang={language}>
   <head>
+    <ThemeManager />
     {fadeAnimation && <ClientRouter />}
     <slot name="head" />
   </head>
@@ -29,7 +30,6 @@ const finalWidth = shouldUseCustomWidth ? `${widthValue}rem` : '25rem'
       ${shouldUseCustomWidth ? `--content-width: ${widthValue}rem;` : ''}
     `}
   >
-    <ThemeManager />
     <FaviconThemeSwitcher />
 
     {
