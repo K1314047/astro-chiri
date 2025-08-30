@@ -1,6 +1,6 @@
 ---
 title: 'gradient.network注册、使用教程'
-pubDate: '2025-08-19'
+pubDate: '2025-08-21'
 ---
 
 ### 1. 访问官网
