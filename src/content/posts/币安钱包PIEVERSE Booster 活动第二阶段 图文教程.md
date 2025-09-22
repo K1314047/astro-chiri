@@ -1,6 +1,6 @@
 ---
 title: '币安钱包PIEVERSE Booster 活动第二阶段 图文教程'
-pubDate: '2025-08-19'
+pubDate: '2025-09-22'
 ---
 
 （成本 几毛的Gas费  奖励 20U） 
