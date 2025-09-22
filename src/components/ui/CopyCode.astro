@@ -17,7 +17,7 @@ import { themeConfig } from '@/config'
       </svg>
     `
 
-    document.documentElement.setAttribute('data-copy-code', copyCode ? 'enabled' : 'disabled')
+    document.body.setAttribute('data-copy-code', copyCode ? 'enabled' : 'disabled')
 
     if (!copyCode) {
       return
@@ -147,7 +147,7 @@ import { themeConfig } from '@/config'
     pointer-events: none;
   }
 
-  [data-copy-code='disabled'] .copy-button {
+  body[data-copy-code='disabled'] .copy-button {
     display: none !important;
   }
 

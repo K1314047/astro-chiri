@@ -72,7 +72,7 @@ if (!linkCardEnabled) {
     console.log('🟡 proxy.ts disabled')
   }
   toggleAstroAdapter(true)
-  console.log('🟡 adapter config commented')
+  console.log('🟡 adapter config disabled')
 } else {
   // If linkCard is enabled, restore proxy.ts and uncomment adapter
   if (fs.existsSync(backupPath)) {
@@ -80,5 +80,5 @@ if (!linkCardEnabled) {
     console.log('🟢 proxy.ts enabled')
   }
   toggleAstroAdapter(false)
-  console.log('🟢 adapter config uncommented')
+  console.log('🟢 adapter config enabled')
 }

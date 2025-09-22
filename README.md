@@ -9,15 +9,15 @@ Check the [demo](https://astro-chiri.netlify.app/) for more details.
 
 ## Features
 
-- Built with Astro
-- Responsive
-- Light / Dark mode
-- MDX
-- KaTeX
-- Sitemap
-- OpenGraph
-- RSS
-- ...
+- [x] Build with Astro
+- [x] Responsive
+- [x] Light / Dark mode
+- [x] MDX
+- [x] KaTeX
+- [x] Sitemap
+- [x] OpenGraph
+- [x] RSS
+- [ ] Pagination
 
 ## Getting Started
 
